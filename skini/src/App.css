@@ -1,0 +1,159 @@
+.app-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: -0.03em;
+  background: linear-gradient(90deg, var(--accent), var(--good));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.app-header p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+}
+
+.card-you {
+  background: var(--card-you);
+  border-color: var(--accent);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  flex: 1;
+}
+
+.rank {
+  font-size: 0.9rem;
+  color: var(--muted);
+  min-width: 2rem;
+}
+
+.avatar {
+  font-size: 1.4rem;
+}
+
+.mode {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.mode-lose {
+  border-color: var(--bad);
+}
+
+.mode-maintain {
+  border-color: var(--good);
+}
+
+.sparkline {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.healthy-band {
+  fill: var(--band);
+}
+
+.sparkline-empty {
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 1rem 0;
+}
+
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.stat-value.good {
+  color: var(--good);
+}
+
+.stat-value.bad {
+  color: var(--bad);
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.weigh-in {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.weigh-in input {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+.weigh-in button {
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  color: #0e1116;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+}
+
+.app-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}

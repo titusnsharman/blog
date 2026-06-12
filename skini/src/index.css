@@ -1,0 +1,31 @@
+:root {
+  --bg: #0e1116;
+  --card: #171c24;
+  --card-you: #1a2230;
+  --text: #e6e9ef;
+  --muted: #8b95a5;
+  --accent: #7aa2ff;
+  --good: #4ade80;
+  --bad: #f87171;
+  --band: rgba(74, 222, 128, 0.08);
+
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
